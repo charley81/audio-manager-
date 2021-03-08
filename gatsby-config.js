@@ -1,5 +1,13 @@
 module.exports = {
-    plugins: [
-
-    ]
+  plugins: [
+    `gatsby-plugin-emotion`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Fascinate', 'cursive'],
+        },
+      },
+    },
+  ],
 }
