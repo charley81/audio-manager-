@@ -14,5 +14,9 @@ const globalStyles = css`
   body {
     font-family: var(--fontFamily);
   }
+
+  li {
+    list-style: none;
+  }
 `
 export default globalStyles
